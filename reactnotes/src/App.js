@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import Note from "./Note/Note";
+import NoteForm from "./NoteForm/NoteForm";
 import "./App.css";
 
 class App extends Component {
@@ -28,7 +29,7 @@ class App extends Component {
           })}
         </div>
         <div className="notesFooter">
-          <p>Footer will go here</p>
+          <NoteForm />
         </div>
       </div>
     );
